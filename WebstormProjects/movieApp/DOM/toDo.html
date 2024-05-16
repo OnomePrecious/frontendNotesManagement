@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="toDo.css" rel="stylesheet" />
+    <title>small To do Application</title>
+</head>
+<body>
+<div id="overview">
+    <header>
+        <div id="overview-header">
+            <h1 class="title"> To do Application</h1>
+            <p> To Do List</p>
+            <form id="search-tasks">
+                <input type="text" placeholder="Search for task" />
+            </form>
+        </div>
+    </header>
+        <div id="todo-list">
+            <h2 class="title">Task List</h2>
+        <ul>
+            <li>
+                <span class="description"> My story</span>
+
+            <span class="delete">delete</span>
+
+                <span class="complete">complete</span>
+
+                <input type="checkbox" id="check" name="check" value="check">
+
+                <label for="check">check box</label>
+            </li>
+        </ul>
+        <form id="add-Task">
+            <input type="text"  placeholder="Add a task..."/>
+            <button>Add a task</button>
+        </form>
+    </div>
+
+    <form id="displayTask">
+        <button>Display all task</button>
+    </form>
+
+    <div class="app-container">
+        <form id="mark">
+            <button class ="Mark as complete">mark as complete</button>
+        </form>
+    </div>
+
+
+</div>
+<script src="todo.js"></script>
+</body>
+</html>

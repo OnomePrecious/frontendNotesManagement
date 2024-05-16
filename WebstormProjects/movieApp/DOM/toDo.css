@@ -1,0 +1,106 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    letter-spacing: 1px;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+#overview{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+#overview-header{
+    background: royalblue;
+    padding: 10px 0;
+
+}
+
+#overview-header h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#overview-header input {
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    font-size: 20px;
+    color: #444444;
+}
+
+    #todo-list, #addTask, #tabbed-content {
+        margin: 30px;
+    }
+
+    #todo-list ul, #tabbed-content ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #todo-list li {
+        padding: 20px;
+        border-left: 5px solid #ddd;
+        margin: 20px 10px;
+    }
+
+    #todo-list li:hover {
+        border-color: #9361bf;
+    }
+
+    .delete {
+        float: right;
+        background: black;
+        padding: 6px;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+    }
+
+    #add-task {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    #add-task input {
+        display: block;
+        margin: 20px 0;
+        padding: 10px;
+        font-size: 20px;
+        box-sizing: border-box;
+        width: 300px;
+        float: left;
+    }
+
+    #add-task button {
+        border: 1px solid #9361bf;
+        background: #9361bf;
+        padding: 10px 20px;
+        font-size: 16px;
+        display: inline-block;
+        margin: 0;
+    }
+
+    #add-task:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+.checkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: pink;*/
+    height: 50%;
+    width: 50%;
+}
+

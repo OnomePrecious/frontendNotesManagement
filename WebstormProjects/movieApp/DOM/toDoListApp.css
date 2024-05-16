@@ -1,0 +1,61 @@
+* {
+    background-color: color-mix(in srgb, #ffffff 35%, khaki);
+}
+.body {
+    background-color: #9361bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #display-task{
+        display: inline-grid;
+        flex-direction: row;
+        color: blue;
+    }
+
+    #addTask{
+        width: 400px;
+        margin: 0 auto;
+
+    }
+    #addTask input{
+        display: block;
+        margin: 20px 0;
+        width: 300px;
+        float: left;
+    }
+
+    #addTask button {
+        background: #9361bf;
+        padding: 10px 20px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+
+    .delete:hover{
+        background: #9361bf;
+        color: white;
+    }
+
+    .delete{
+        float: right;
+        /*background: #9361bf;*/
+        padding: 6px;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+
+    }
+
+    .app-container{
+        float: left;
+        background: #ffffff;
+    }
+
