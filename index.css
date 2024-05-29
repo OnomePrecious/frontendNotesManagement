@@ -1,0 +1,28 @@
+*{
+    background-color: lightpink;
+    margin-top: 5px;
+}
+
+.submit{
+    background-color: burlywood;
+    margin-top: 1%;
+    align-items: center;
+
+}
+.submit:hover{
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+
+.inputContainer{
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.header h4 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
