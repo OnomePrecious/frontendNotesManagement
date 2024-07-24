@@ -4,7 +4,7 @@
 }
 
 .submit{
-    background-color: burlywood;
+    background-color: khaki;
     margin-top: 1%;
     align-items: center;
 
@@ -25,4 +25,17 @@
     display: flex;
     justify-content: center;
     margin-right: 100px;
+}
+.loginButton{
+    background-color: khaki;
+    margin-top: 1%;
+    align-items: center;
+}
+
+.loginButton:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+.accountContainer p{
+    font-size: 22px;
 }
